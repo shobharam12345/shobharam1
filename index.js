@@ -855,6 +855,16 @@
 // console.log(a)
 
 
+function  array [25,56,55,44,77,88,14]
+let array=array.max( )
+
+console.log(array)
+
+
+
+
+
+
 
 
 

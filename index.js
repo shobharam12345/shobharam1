@@ -772,26 +772,46 @@ const password= generatePassword();
 // write a javascript function to capitalize the first letter of a string
 
 
-function capitalizeString(str){
-    let splitedArray=str.split('')
- console.log (splitedArray)
+// function capitalizeString(str){
+//     let splitedArray=str.split('')
+//  console.log (splitedArray)
 
- for( let i=0; i<=splitedArray.length;i++){
-    let value=splitedarray[i]
-    console.log(value)
-    let firstLetter=valuefromArray.charAt(0).toUpperCase()
-    console.log(firstLetter)
-    let leftLetter=valuefromArray.slice(1)
-    console.log(leftLetter)
-    let fullword=firstLetter+leftLetter
-    console.log(fullword)
-    splitedArray[i]=fullword
- }
-let joinString=splitedArray.join(' ')
+//  for( let i=0; i<=splitedArray.length;i++){
+//     let value=splitedarray[i]
+//     console.log(value)
+//     let firstLetter=valuefromArray.charAt(0).toUpperCase()
+//     console.log(firstLetter)
+//     let leftLetter=valuefromArray.slice(1)
+//     console.log(leftLetter)
+//     let fullword=firstLetter+leftLetter
+//     console.log(fullword)
+//     splitedArray[i]=fullword
+//  }
+// let joinString=splitedArray.join(' ')
          
-    return joinString
+//     return joinString
 
-    let a=capitalizeString('bablu sir')
+//     let a=capitalizeString('bablu sir')
 
-}
-console.log(a)
+// }
+// console.log(a): Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
+// Test Data :
+// console.log(remove_first_occurrence("The quick brown fox jumps over the lazy dog", 'the'));
+// Output :
+// "The quick brown fox jumps over lazy dog"
+//  Write a JavaScript function to convert a string into camel case.
+// Test Data :
+// console.log(camelize("JavaScript Exercises"));//javascriptExercises
+
+
+
+
+
+// Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
+// Test Data :
+// console.log(remove_first_occurrence("The quick brown fox jumps over the lazy dog", 'the'));
+// Output :
+// "The quick brown fox jumps over lazy dog"
+
+
+

@@ -855,10 +855,22 @@
 // console.log(a)
 
 
-function  array [25,56,55,44,77,88,14]
-let array=array.max( )
+// function  array [25,56,55,44,77,88,14]
+// let array=array.max( )
 
-console.log(array)
+// console.log(array)
+
+
+
+a=[1,9,11]
+let  max=a[0]
+for (let i=0;i<a.length;i++){
+    if(a[i]>max){
+        max=a[i]{
+     console.log(max)
+        }
+    }
+}
 
 
 

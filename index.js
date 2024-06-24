@@ -460,18 +460,18 @@
 // console.log(array2)
 
 
-function generatePassword(){
-    const characters = '0123456789'
+// function generatePassword(){
+//     const characters = '0123456789'
 
-    let password = ''
-    for (let i=0; i<6; i++){
-        const randomIndex = Math.floor(Math.random()*characters.length)
-        password += characters[randomIndex]
-    }
-    return password;
+//     let password = ''
+//     for (let i=0; i<6; i++){
+//         const randomIndex = Math.floor(Math.random()*characters.length)
+//         password += characters[randomIndex]
+//     }
+//     return password;
 
-}
-const password= generatePassword();
+// }
+// const password= generatePassword();
 
 
 
@@ -772,26 +772,91 @@ const password= generatePassword();
 // write a javascript function to capitalize the first letter of a string
 
 
-function capitalizeString(str){
-    let splitedArray=str.split('')
- console.log (splitedArray)
+// function capitalizeString(str){
+//     let splitedArray=str.split('')
+//  console.log (splitedArray)
 
- for( let i=0; i<=splitedArray.length;i++){
-    let value=splitedarray[i]
-    console.log(value)
-    let firstLetter=valuefromArray.charAt(0).toUpperCase()
-    console.log(firstLetter)
-    let leftLetter=valuefromArray.slice(1)
-    console.log(leftLetter)
-    let fullword=firstLetter+leftLetter
-    console.log(fullword)
-    splitedArray[i]=fullword
- }
-let joinString=splitedArray.join(' ')
+//  for( let i=0; i<=splitedArray.length;i++){
+//     let value=splitedarray[i]
+//     console.log(value)
+//     let firstLetter=valuefromArray.charAt(0).toUpperCase()
+//     console.log(firstLetter)
+//     let leftLetter=valuefromArray.slice(1)
+//     console.log(leftLetter)
+//     let fullword=firstLetter+leftLetter
+//     console.log(fullword)
+//     splitedArray[i]=fullword
+//  }
+// let joinString=splitedArray.join(' ')
          
-    return joinString
+//     return joinString
 
-    let a=capitalizeString('bablu sir')
+//     let a=capitalizeString('bablu sir')
 
-}
-console.log(a)
+// }
+// console.log(a): Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
+// Test Data :
+// console.log(remove_first_occurrence("The quick brown fox jumps over the lazy dog", 'the'));
+// Output :
+// "The quick brown fox jumps over lazy dog"
+//  Write a JavaScript function to convert a string into camel case.
+// Test Data :
+// console.log(camelize("JavaScript Exercises"));//javascriptExercises
+
+
+
+
+
+// Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
+// Test Data :
+// console.log(remove_first_occurrence("The quick brown fox jumps over the lazy dog", 'the'));
+// Output :
+// "The quick brown fox jumps over lazy dog"
+
+
+// function factorial(n){
+//     let result=1
+//     for( let i=1;i<=n;i++){
+//         result=result*i
+//     }
+//     console.log(result)
+// }
+
+// factorial(6)
+
+// function str(R,P,T){
+
+// let result=((R*P*T)/100)
+// console.log(result)
+// }
+// str(10,150,2)
+
+
+
+// function Sum(a,b){
+// //let a
+// //let b
+// let sum=a+b;
+// console.log(sum)
+// }
+// Sum(4,9)
+
+
+// let name="Bhagwandas"
+// // [ "B","h","a","g","w","a","n","d","a","s"]
+// function str(name)
+// {
+//     let result=name.split('')
+//     let sorted=result.sort(comp)
+//     let joined=sorted.join(' ')
+//     return join;
+// }
+// let a=str("Bhagwandas")
+// console.log(a)
+
+
+
+
+
+
+
